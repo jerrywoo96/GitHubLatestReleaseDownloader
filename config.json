@@ -4,6 +4,6 @@
     "file1-v*-example.zip",
     "file2-v*-example.zip",
     "config.json",
-    "DownloadRelease.ps1"
+    "DownloadReleases.ps1"
   ]
 }
