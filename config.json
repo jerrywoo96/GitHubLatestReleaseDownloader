@@ -2,6 +2,8 @@
   "Repo": "jerrywoo96/GitHubLatestReleaseDownloader",
   "Files": [
     "file1-v*-example.zip",
-    "file2-v*-example.zip"
+    "file2-v*-example.zip",
+    "config.json",
+    "DownloadRelease.ps1"
   ]
 }
