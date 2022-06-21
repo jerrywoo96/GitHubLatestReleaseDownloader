@@ -1,7 +1,7 @@
 $config = Get-Content ".\config.json" | ConvertFrom-Json
 $repo = $config.Repo
 
-$releases = Invoke-WebRequest "https://api.github.com/repos/$repo/releases/latest" | ConvertFrom-Json
+$releases = Invoke-WebRequest "https://api.github.com/repos/$repo/releases/latest" -UseBasicParsing | ConvertFrom-Json
 
 $version = $releases.tag_name
 $folder = ".\$version"
